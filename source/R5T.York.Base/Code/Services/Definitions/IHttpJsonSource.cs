@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 
-namespace R5T.York.Base
+namespace R5T.York
 {
     public interface IHttpJsonSource
     {
-        T Get<T>(string jsonUrlEndpoint);
+        Task<T> GetAsync<T>(string jsonUrlEndpoint);
     }
 }
