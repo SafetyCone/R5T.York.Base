@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.York.Base.Construction"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.York.Base", "R5T.York.Base\R5T.York.Base.csproj", "{FB106D5A-7638-4CBE-8C99-D1C25090E55F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{508DBFCD-BAFA-4D74-B17C-707410A080A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{FB106D5A-7638-4CBE-8C99-D1C25090E55F}.Release|x64.Build.0 = Release|Any CPU
 		{FB106D5A-7638-4CBE-8C99-D1C25090E55F}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB106D5A-7638-4CBE-8C99-D1C25090E55F}.Release|x86.Build.0 = Release|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Debug|x64.Build.0 = Debug|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Debug|x86.Build.0 = Debug|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Release|x64.ActiveCfg = Release|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Release|x64.Build.0 = Release|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Release|x86.ActiveCfg = Release|Any CPU
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57E6941D-5FD4-460B-AD9B-AFF6B70A532F} = {508DBFCD-BAFA-4D74-B17C-707410A080A7}
 	EndGlobalSection
 EndGlobal
